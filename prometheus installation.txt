@@ -35,7 +35,7 @@ Configure Prometheus As a Systemd Service
 
 Create new service file 'prometheus.service' using vi editor in  '/etc/systemd/system/' directory
 
-vi /etc/systemd/system/prometheus.service
+sudo vi /etc/systemd/system/prometheus.service
 
 Paste the prometheus service configuration below.
 

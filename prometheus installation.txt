@@ -14,7 +14,7 @@ Create a new User called prometheus.
 
 useradd -m -s /bin/bash prometheus
 
-and make prometheus user as root user. cd /etc/sudoers
+and make prometheus user as root user. vi /etc/sudoers
 after making prometheus user as rootuser make him passwordless ------> passwd -d prometheus 
 
 Switch to the prometheus user and download the Prometheus software.
